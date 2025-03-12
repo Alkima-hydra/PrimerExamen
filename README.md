@@ -1,4 +1,4 @@
-# Backend Sample
+# Primer examen de Tecnologías Web II
 
 Backend desarrollado con Node.js, Express.js y MongoDB para gestionar las colecciones `Usuarios` y `Productos`.
 
