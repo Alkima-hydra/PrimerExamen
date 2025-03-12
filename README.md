@@ -18,7 +18,7 @@ Backend desarrollado con Node.js, Express.js y MongoDB para gestionar las colecc
    npm install
 
 
-3. Crear un archivo .env en la raíz con:
+3. Modificar el archivo .env duplicado de acuerdo a las necesidades con el ejemplo:
    ```bash
    MONGO_URI=mongodb://localhost:27017/sample
    PORT=3000
