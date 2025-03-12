@@ -3,7 +3,7 @@
 Backend desarrollado con Node.js, Express.js y MongoDB para gestionar las colecciones `Usuarios` y `Productos`.
 
 ## Requisitos
-- Node.js (v16 o superior)
+- Node.js (v22)
 - MongoDB (local o en la nube)
 - Postman o Insomnia (para pruebas)
 
