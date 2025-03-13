@@ -28,15 +28,17 @@ Backend desarrollado con Node.js, Express.js y MongoDB para gestionar las colecc
    npm start
 
 
-# Lista de endpoints de la API
+Lista de URLs disponibles en la API (prefijo: `/api`). Todas las rutas están diseñadas para gestionar usuarios, productos, estadísticas y un contador de operaciones. Usa `http://localhost:3000` como base URL (ajusta el puerto según el valor de `PORT` declarado en el `.env`).
 
-POST /api/usuarios - Crear un usuario
-GET /api/usuarios - Obtener todos los usuarios
-PUT /api/usuarios/:id - Actualizar un usuario por ID
-DELETE /api/usuarios/:id - Eliminar un usuario por ID
-POST /api/productos - Crear un producto
-GET /api/productos - Obtener todos los productos
-PUT /api/productos/:id - Actualizar un producto por ID
-DELETE /api/productos/:id - Eliminar un producto por ID
-GET /api/contadores - Obtener conteos de productos y usuarios
-GET /api/operaciones - Obtener el contador de operaciones
+- **POST /api/usuarios** - Crea un nuevo usuario con los datos proporcionados en el cuerpo de la solicitud.
+- **GET /api/usuarios** - Devuelve una lista de todos los usuarios registrados en la base de datos.
+- **PUT /api/usuarios/:id** - Actualiza los datos de un usuario existente identificado por su ID.
+- **DELETE /api/usuarios/:id** - Elimina un usuario específico de la base de datos usando su ID.
+- **POST /api/productos** - Crea un nuevo producto con los detalles enviados en el cuerpo de la solicitud.
+- **GET /api/productos** - Lista todos los productos almacenados en la base de datos.
+- **PUT /api/productos/:id** - Actualiza un producto existente identificado por su ID.
+- **DELETE /api/productos/:id** - Elimina un producto específico de la base de datos usando su ID.
+- **GET /api/contadores** - Devuelve el número total de productos y usuarios registrados.
+- **GET /api/operaciones** - Muestra el contador de operaciones realizadas en la API.
+
+**Nota**: Los endpoints con `:id` requieren un ID válido de MongoDB en la URL. Las solicitudes `POST` y `PUT` deben incluir un cuerpo JSON con los campos requeridos.
