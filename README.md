@@ -20,7 +20,7 @@ Backend desarrollado con Node.js, Express.js y MongoDB para gestionar las colecc
 
 3. Modificar el archivo .env duplicado de acuerdo a las necesidades con el ejemplo:
    ```bash
-   MONGO_URI=mongodb+srv://<db_username>:<db_password>@bdprimerexamen.oegib.mongodb.net/
+   MONGO_URI=mongodb+srv://<db_username>:<db_password>@bdprimerexamen.oegib.mongodb.net/Colecciones
    PORT=3000
 
 4. Iniciar el servidor:
