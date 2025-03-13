@@ -17,7 +17,6 @@ Backend desarrollado con Node.js, Express.js y MongoDB para gestionar las colecc
    ```bash
    npm install
 
-
 3. Modificar el archivo .env duplicado de acuerdo a las necesidades con el ejemplo:
    ```bash
    MONGO_URI=mongodb+srv://<db_username>:<db_password>@bdprimerexamen.oegib.mongodb.net/Colecciones
@@ -27,8 +26,8 @@ Backend desarrollado con Node.js, Express.js y MongoDB para gestionar las colecc
    ```bash
    npm start
 
-
-Lista de URLs disponibles en la API (prefijo: `/api`). Todas las rutas están diseñadas para gestionar usuarios, productos, estadísticas y un contador de operaciones. Usa `http://localhost:3000` como base URL (ajusta el puerto según el valor de `PORT` declarado en el `.env`).
+## Lista de URLs disponibles en la API
+Todas las rutas están diseñadas para gestionar usuarios, productos, estadísticas y un contador de operaciones. Use `http://localhost:3000` como base URL (ajusta el puerto según el valor de `PORT` declarado en el `.env`).
 
 - **POST /api/usuarios** - Crea un nuevo usuario con los datos proporcionados en el cuerpo de la solicitud.
 - **GET /api/usuarios** - Devuelve una lista de todos los usuarios registrados en la base de datos.
