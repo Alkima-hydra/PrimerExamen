@@ -26,3 +26,17 @@ Backend desarrollado con Node.js, Express.js y MongoDB para gestionar las colecc
 4. Iniciar el servidor:
    ```bash
    npm start
+
+
+# Lista de endpoints de la API
+
+POST /api/usuarios - Crear un usuario
+GET /api/usuarios - Obtener todos los usuarios
+PUT /api/usuarios/:id - Actualizar un usuario por ID
+DELETE /api/usuarios/:id - Eliminar un usuario por ID
+POST /api/productos - Crear un producto
+GET /api/productos - Obtener todos los productos
+PUT /api/productos/:id - Actualizar un producto por ID
+DELETE /api/productos/:id - Eliminar un producto por ID
+GET /api/contadores - Obtener conteos de productos y usuarios
+GET /api/operaciones - Obtener el contador de operaciones
